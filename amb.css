@@ -1,0 +1,77 @@
+* {
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(3, 16, 95);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    color: black;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: aqua;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 50px;
+}
+
+#rooms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.room {
+    width: 30%;
+    text-align: center;
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

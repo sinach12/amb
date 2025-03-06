@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel Website</title>
+    <link rel="stylesheet" href="amb.css">
+    <link rel="stylesheet" href="amb.js">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>ambrose Hotel</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="home" class="hero">
+        <h2>Welcome to Our Hotel</h2>
+        <p>Your perfect stay awaits</p>
+        <button>Book Now</button>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+            <img src="./asset/amb1.jfif" alt="Room 1">
+            <h3>Deluxe Room</h3>
+            <p>Comfortable and spacious with great amenities.</p>
+            <button>Book Now</button>
+        </div>
+        <div class="room">
+            <img src="./asset/vkodmv.jfif" alt="Room 2">
+            <h3>Standard Room</h3>
+            <p>Affordable with all basic necessities.</p>
+            <button>Book Now</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Free Wi-Fi</li>
+            <li>Swimming Pool</li>
+            <li>Restaurant</li>
+            <li>Spa</li>
+            <li>free breadfast</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 ambrose Hotel| All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
